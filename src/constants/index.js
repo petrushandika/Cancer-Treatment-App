@@ -2,22 +2,22 @@ import { records, screening, user, apps } from "../assets";
 
 export const navLinks = [
   {
-    name: "dashboard",
+    name: "Dashboard",
     imageUrl: apps,
     link: "/",
   },
   {
-    name: "records",
+    name: "Records",
     imageUrl: records,
     link: "/medical-records",
   },
   {
-    name: "screening",
+    name: "Screening",
     imageUrl: screening,
     link: "/screening-schedules",
   },
   {
-    name: "profile",
+    name: "Profile",
     imageUrl: user,
     link: "/profile",
   },
