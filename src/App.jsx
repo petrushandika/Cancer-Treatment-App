@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
-import { Home } from "./pages";
+import { Home, OnBoarding } from "./pages";
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/onboarding" element={<OnBoarding />} />
         </Routes>
       </div>
     </div>

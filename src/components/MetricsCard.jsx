@@ -14,7 +14,7 @@ const MetricsCard = ({ title, subtitle, value, icon: Icon, onClick }) => (
           </h3>
         </div>
       </div>
-      <div className="flex size-11 h-3 w-3 flex-shrink-0 items-center justify-center rounded-full bg-blue-600 text-blue-200 dark:bg-[#1c1c24]">
+      <div className="flex size-11 h-fit w-fit flex-shrink-0 items-center justify-center rounded-full bg-blue-600 p-3 text-blue-200 dark:bg-[#1c1c24]">
         <Icon size={25} className="text-green-500" />
       </div>
     </div>

@@ -72,7 +72,7 @@ const DisplayInfo = () => {
   ];
 
   return (
-    <div className="flex flex-wrap gap-6">
+    <div className="flex flex-wrap gap-6 px-6">
       <div className="mt-7 grid w-full gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
         {metricsData()
           .slice(0, 2)
