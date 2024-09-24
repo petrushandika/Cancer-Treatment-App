@@ -46,7 +46,7 @@ const Index = () => {
         const newRecord = await createRecord({
           userId: currentUser.id,
           recordName: folderName,
-          analysisResults: "",
+          analysisResult: "",
           kanbanRecords: "",
           createdBy: user.email.address,
         });
